@@ -5,14 +5,14 @@ namespace WarriorsDomain.DataModel.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WarriorsDomain.DataModel.WarriorsContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<WarriorsDomain.DataModel.WarriorContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(WarriorsDomain.DataModel.WarriorsContext context)
+        protected override void Seed(WarriorsDomain.DataModel.WarriorContext context)
         {
             //  This method will be called after migrating to the latest version.
 

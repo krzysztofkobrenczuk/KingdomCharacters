@@ -10,5 +10,5 @@ c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsD
 c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.csprojResolveAssemblyReference.cache
 c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.dll
 c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.pdb
-c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.Migrations.Initial.resources
-c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.csproj.GenerateResource.Cache
+C:\Users\Senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.Migrations.Initial.resources
+C:\Users\Senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.csproj.GenerateResource.Cache

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WarriorsDomain.Classes.Interfaces;
 
 namespace WarriorsDomain.Classes
 {
@@ -10,7 +8,7 @@ namespace WarriorsDomain.Classes
     {
         public Warrior()
         {
-            EquipmentOwned = new List<WarriorEquipment>();
+            this.EquipmentOwned = new List<WarriorEquipment>();
         }
         public int Id { get; set; }
         public string Name { get; set; }

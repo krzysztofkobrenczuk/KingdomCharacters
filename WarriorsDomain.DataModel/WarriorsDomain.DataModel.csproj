@@ -49,14 +49,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectedRepository.cs" />
     <Compile Include="DataHelpers.cs" />
-    <Compile Include="Migrations\201705281654551_Initial.cs" />
-    <Compile Include="Migrations\201705281654551_Initial.Designer.cs">
-      <DependentUpon>201705281654551_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201705290827372_Initial.cs" />
+    <Compile Include="Migrations\201705290827372_Initial.Designer.cs">
+      <DependentUpon>201705290827372_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WarriorsContext.cs" />
+    <Compile Include="WarriorContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,8 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705281654551_Initial.resx">
-      <DependentUpon>201705281654551_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201705290827372_Initial.resx">
+      <DependentUpon>201705290827372_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

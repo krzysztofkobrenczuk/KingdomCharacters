@@ -15,17 +15,17 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
 
-            Database.SetInitializer(new NullDatabaseInitializer<WarriorsContext>());
+            Database.SetInitializer(new NullDatabaseInitializer<WarriorContext>());
             //InsertWarrior();
-            //InsertMultipleWarriors();
+            InsertMultipleWarriors();
             //SimpleWarriorQueries();
             //QueryAndUpdateWarrior();     
             //QueryAndUpdateWarriorDisconnected();
             //RetrieveDataWithFind();
             // DeleteWarrior();
-            //InserWarriorWithEquipment();
+            InserWarriorWithEquipment();
             // SimpleWarriorGraphQuery();
-            ProjectionQuery();
+            //ProjectionQuery();
             Console.ReadKey();
         }
 
@@ -38,7 +38,7 @@ namespace ConsoleApplication
                 DateOfBirth = new DateTime(1998, 1, 1),
                 BloodId = 1
             };
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 context.Warriors.Add(wojownik);
@@ -61,7 +61,7 @@ namespace ConsoleApplication
                 DateOfBirth = new DateTime(1962, 3, 3),
                 BloodId = 1
             };
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 context.Warriors.AddRange(new List<Warrior> { warrior1, warrior2 });
@@ -71,7 +71,7 @@ namespace ConsoleApplication
 
         private static void SimpleWarriorQueries()
         {
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 var warriors = context.Warriors
                     .Where(n => n.DateOfBirth >= new DateTime(1932,1,1))
@@ -88,7 +88,7 @@ namespace ConsoleApplication
 
         private static void QueryAndUpdateWarrior()
         {
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 var warrior = context.Warriors.FirstOrDefault();
@@ -100,14 +100,14 @@ namespace ConsoleApplication
         private static void QueryAndUpdateWarriorDisconnected()
         {
             Warrior warrior;
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 warrior = context.Warriors.FirstOrDefault();
             }
             warrior.ServedInKingdom = (!warrior.ServedInKingdom);
 
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 context.Warriors.Add(warrior);
@@ -119,7 +119,7 @@ namespace ConsoleApplication
         private static void RetrieveDataWithFind()
         {
             var keyvalue = 2;
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 var warrior = context.Warriors.Find(keyvalue);
@@ -135,14 +135,14 @@ namespace ConsoleApplication
         {
             Warrior warrior;
 
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 warrior = context.Warriors.FirstOrDefault();
                 //context.Warriors.Remove(warrior);
                 //context.SaveChanges();
             }
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 //context.Warriors.Attach(warrior);
@@ -154,7 +154,7 @@ namespace ConsoleApplication
 
         private static void InserWarriorWithEquipment()
         {
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
 
@@ -184,7 +184,7 @@ namespace ConsoleApplication
 
          private static void SimpleWarriorGraphQuery()
         {
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
 
@@ -197,7 +197,7 @@ namespace ConsoleApplication
         }
         private static void ProjectionQuery()
         {
-            using (var context = new WarriorsContext())
+            using (var context = new WarriorContext())
             {
                 context.Database.Log = Console.WriteLine;
                 var warriors = context.Warriors

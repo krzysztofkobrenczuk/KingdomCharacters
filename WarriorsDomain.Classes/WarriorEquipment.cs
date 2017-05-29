@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WarriorsDomain.Classes.Enums;
+using WarriorsDomain.Classes.Interfaces;
 
 namespace WarriorsDomain.Classes
 {

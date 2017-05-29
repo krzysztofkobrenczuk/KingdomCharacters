@@ -12,8 +12,8 @@ namespace WarriorsDomain.DataModel
     {
         public static void NewDoWithSeed()
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<WarriorsContext>());
-            using (var context = new WarriorsContext())
+            Database.SetInitializer(new DropCreateDatabaseAlways<WarriorContext>());
+            using (var context = new WarriorContext())
             {
                 if (context.Warriors.Any())
                 {

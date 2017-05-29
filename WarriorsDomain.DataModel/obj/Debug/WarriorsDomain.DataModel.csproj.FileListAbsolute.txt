@@ -1,0 +1,14 @@
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\WarriorsDomain.DataModel.dll.config
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\WarriorsDomain.DataModel.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\WarriorsDomain.DataModel.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\EntityFramework.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\WarriorsDomain.Classes.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\WarriorsDomain.Classes.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\EntityFramework.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.csprojResolveAssemblyReference.cache
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.Migrations.Initial.resources
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.DataModel\obj\Debug\WarriorsDomain.DataModel.csproj.GenerateResource.Cache

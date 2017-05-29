@@ -1,0 +1,10 @@
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\obj\Debug\WarriorsDomain.Classes.csprojResolveAssemblyReference.cache
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\WarriorsDomain.Classes.dll.config
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\WarriorsDomain.Classes.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\WarriorsDomain.Classes.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\EntityFramework.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\EntityFramework.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\obj\Debug\WarriorsDomain.Classes.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\WarriorsDomain.Classes\obj\Debug\WarriorsDomain.Classes.pdb

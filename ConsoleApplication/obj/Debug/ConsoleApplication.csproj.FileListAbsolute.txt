@@ -1,0 +1,14 @@
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\EntityFramework.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\WarriorsDomain.Classes.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\WarriorsDomain.DataModel.dll
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\WarriorsDomain.Classes.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\WarriorsDomain.DataModel.pdb
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\EntityFramework.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+c:\users\senex\documents\visual studio 2015\Projects\KingdomCharacters\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
